@@ -1,0 +1,71 @@
+body {
+    background-image: url("http://i.ytimg.com/vi/nWQthh74Ets/maxresdefault.jpg");
+    background-size: 1440px 828px;
+
+}
+li {
+    float: none;
+}
+
+a {
+    display: block;
+    width: 60px;
+}
+#chart_div {
+    position: absolute;
+    left: 250px;
+    margin-top: 25px;
+    border-radius:5px;
+}
+#thingy {
+    background-color: lightblue;
+    border-radius:5px;
+}
+#piechart {
+    position: absolute;
+    left: 250px;
+    margin-top: 222px;
+}
+#image1 {
+    width: 300px;
+    height: 300px;
+}
+#image2 {
+    width: 300px;
+    height: 300px;
+}
+#image3 {
+    width: 300px;
+    height: 300px;
+}
+#image4 {
+    width: 300px;
+    height: 300px;
+}
+#image5 {
+    width: 300px;
+    height: 300px;
+}
+#image6 {
+    width: 300px;
+    height: 300px;
+}
+#image7 {
+    width: 300px;
+    height: 300px;
+}
+#image8 {
+    width: 300px;
+    height: 300px;
+}
+#image9 {
+    width: 300px;
+    height: 300px;
+}
+table {
+position: absolute;
+top: 1242px;
+border: 15px solid black;
+border-collapse: collapse;
+table-layout: fixed;
+}
