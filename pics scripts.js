@@ -80,29 +80,90 @@ var main = function() {
     $('#image1').click(function() {
         $('#image1').attr('src', "http://weknowyourdreams.com/images/casino/casino-03.jpg");
     });
+    $('#textImage1').click(function() {
+        var text1 = function(answer){
+            $('#image1text').html(answer);
+        };
+        text1(prompt("Enter Text."));
+    });
+
     $('#image2').click(function() {
         $('#image2').attr('src', "https://www.pechanga.com/images/casino/large/Roulette_2.jpg");
     });
+    $('#textImage2').click(function() {
+        var text2 = function(answer){
+            $('#image2text').html(answer);
+        };
+        text2(prompt("Enter Text."));
+    });
+
     $('#image3').click(function() {
         $('#image3').attr('src', "http://thumbs.dreamstime.com/x/casino-machine-15364661.jpg");
     });
+    $('#textImage3').click(function() {
+        var text3 = function(answer){
+            $('#image3text').html(answer);
+        };
+        text3(prompt("Enter Text."));
+    });
+
     $('#image4').click(function() {
         $('#image4').attr('src', "http://www.winstonpersonalinjury.com/wp-content/uploads/2014/05/Las-Vegas-Casino-Accidents.jpg");
     });
+    $('#textImage4').click(function() {
+        var text4 = function(answer){
+            $('#image4text').html(answer);
+        };
+        text4(prompt("Enter Text."));
+    });
+
     $('#image5').click(function() {
         $('#image5').attr('src', "http://www.dominicanrepublicembassylondon.com/wp-content/uploads/2014/09/Puerto-Plata-casino.jpg");
     });
+    $('#textImage5').click(function() {
+        var text5 = function(answer){
+            $('#image5text').html(answer);
+        };
+        text5(prompt("Enter Text."));
+    });
+
     $('#image6').click(function() {
         $('#image6').attr('src', "http://static8.depositphotos.com/1300028/798/v/950/depositphotos_7982175-Vector-gambling-illustration-with-casino-elements.jpg");
     });
+    $('#textImage6').click(function() {
+        var text6 = function(answer){
+            $('#image6text').html(answer);
+        };
+        text6(prompt("Enter Text."));
+    });
+
     $('#image7').click(function() {
         $('#image7').attr('src', "http://static4.depositphotos.com/1013869/301/v/950/depositphotos_3019519-Casino-poker-background-vector.jpg");
+    });
+    $('#textImage7').click(function() {
+        var text7 = function(answer){
+            $('#image7text').html(answer);
+        };
+        text7(prompt("Enter Text."));
     });
     $('#image8').click(function() {
         $('#image8').attr('src', "http://spiritmountain.com/images/uploads/blog/Poker_Tips.jpg");
     });
+    $('#textImage8').click(function() {
+        var text8 = function(answer){
+            $('#image8text').html(answer);
+        };
+        text8(prompt("Enter Text."));
+    });
+
     $('#image9').click(function() {
         $('#image9').attr('src', "http://searchengineland.com/figz/wp-content/seloads/2015/02/casino-games-ss-1920.jpg");
+    });
+    $('#textImage9').click(function() {
+        var text9 = function(answer){
+            $('#image9text').html(answer);
+        };
+        text9(prompt("Enter Text."));
     });
 };
 $(document).ready(main);

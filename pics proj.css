@@ -24,7 +24,7 @@ a {
 #piechart {
     position: absolute;
     left: 250px;
-    margin-top: 222px;
+    margin-top: 122px;
 }
 #image1 {
     width: 300px;
@@ -63,9 +63,10 @@ a {
     height: 300px;
 }
 table {
-position: absolute;
-top: 1242px;
-border: 15px solid black;
-border-collapse: collapse;
-table-layout: fixed;
+    position: absolute;
+    top: 1252px;
+    border: 15px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: white;
 }
